@@ -1,0 +1,78 @@
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.open-sans-normal2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* header styles  */
+
+
+.header{
+    background-image: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.banner_content{
+    margin-bottom: 158px;
+}
+
+
+/* nav styles */
+
+nav{
+    display: flex;
+
+    align-items: normal;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-bottom: 158px;
+}
+
+.nav-title{
+    font-size: 34px;
+    color: #4E47FF ;
+}
+
+
+/* shared styles  */
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
