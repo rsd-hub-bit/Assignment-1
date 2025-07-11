@@ -94,6 +94,91 @@ nav{
     border-radius: 40px;
 }
 
+.sec2-content{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 517px;
+    margin: 0 auto;
+    margin-bottom: 158px;
+    max-width: 1140px;
+    border-radius: 20px;
+    background-color: #e0dff1;
+    margin: auto;
+    padding: 50px;
+}
+.sec-title2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    color: #252432;
+}
+
+.sec-subtitle{
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    color: #3f33e8;
+    margin: 0;
+}
+
+.sec-joined{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    text-align: center;
+}
+
+.sec3-content{
+    align-items: center;
+    justify-content: space-around;
+
+    /* flex-direction: column; */
+    margin-top: 158px;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 158px
+    
+}
+
+.sec3-words{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.sec3-set{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px ; 
+    /* margin: 20px; */
+}
+
+.title3{
+    text-align: center;
+    font-size: 42px;
+
+}
+
+.sec3-set-avatar{
+    border-radius: 50%;
+}
+
+.sec3-set-avatar-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+div ul li{
+    list-style: none;
+}
+
+
+
 /* shared styles  */
 
 .btn-primary{
@@ -113,4 +198,49 @@ nav{
     transition: all 0.3s ease;
     transform: scale(1.05);
     background-color: orange;
+}
+
+
+/* footer  */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    align-items:center;
+    gap: 50px;
+    background-color: #cdcbe1;
+}
+
+.section-title2{
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer textarea{
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer button{
+    width: 497px;
 }
