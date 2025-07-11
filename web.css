@@ -63,6 +63,37 @@ nav{
 }
 
 
+/* sec styles */
+
+.sec-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252232;
+}
+
+.sec-p{
+    font-size: 24px;
+    font-weight: 100;
+    color: #252432;
+    max-width: 517px;
+}
+
+
+.sec-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* text-align: center; */
+    margin-top: 100px;
+    /* max-width: 517px; */
+    /* margin: 0 auto; */
+    margin-bottom: 158px;
+}
+
+.sec-img{
+    border-radius: 40px;
+}
+
 /* shared styles  */
 
 .btn-primary{
@@ -75,4 +106,11 @@ nav{
     border: none;
     cursor: pointer;
     margin-top: 30px;
+    
+}
+
+.btn-primary:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    background-color: orange;
 }
